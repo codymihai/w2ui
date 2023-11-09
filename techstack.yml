@@ -1,0 +1,508 @@
+repo_name: codymihai/w2ui
+report_id: d4fc5dcc8c97251b0a8bb410848e77c6
+repo_type: Public
+timestamp: '2023-11-09T10:57:15+00:00'
+requested_by: vitmalina
+provider: github
+branch: master
+detected_tools_count: 34
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Hack
+  description: A programming language for HHVM that interoperates seamlessly with
+    PHP
+  website_url: http://hacklang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1208/download.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: server/node/mongo/package.json
+  detection_source: server/node/mongo/package.json
+  last_updated_by: Olof Astrand
+  last_updated_on: 2015-04-08 19:52:35.000000000 Z
+- name: Sinatra
+  description: Classy web-development dressed in a DSL
+  website_url: http://www.sinatrarb.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/999/logo.png
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: server/python/django_w2ui/django_w2ui/static/datetimepicker/bower.json
+  detection_source: server/python/django_w2ui/django_w2ui/static/datetimepicker/bower.json
+  last_updated_by: filippo
+  last_updated_on: 2014-12-19 16:02:00.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: server/node/mongo/w2mdb.js
+  last_updated_by: Olof Astrand
+  last_updated_on: 2015-04-08 19:52:35.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: server/node/mongo/package.json
+  last_updated_by: Olof Astrand
+  last_updated_on: 2015-04-08 19:52:35.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: server/python/django_w2ui/django_w2ui/static/datetimepicker/package.json
+  last_updated_by: vitmalina
+  last_updated_on: 2014-03-01 08:55:28.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: server/node/mongo/package.json
+  detection_source: server/node/mongo/package.json
+  last_updated_by: Olof Astrand
+  last_updated_on: 2015-04-08 19:52:35.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: server/node/mongo/package.json
+  detection_source: server/node/mongo/package.json
+  last_updated_by: Olof Astrand
+  last_updated_on: 2015-04-08 19:52:35.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: grunt
+  description: The JavaScript Task Runner
+  package_url: https://www.npmjs.com/grunt
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vitali Malinouski
+  last_updated_on: 2014-07-10 06:21:06.000000000 Z
+  vulnerabilities:
+  - name: Race Condition in Grunt
+    cve_id: CVE-2022-1537
+    cve_url: https://github.com/advisories/GHSA-rm36-94g8-835r
+    detected_date: May 26
+    severity: high
+    first_patched: 1.5.3
+  - name: Arbitrary Code Execution in grunt
+    cve_id: CVE-2020-7729
+    cve_url: https://github.com/advisories/GHSA-m5pj-vjjf-4m3h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.0
+  - name: Path Traversal in Grunt
+    cve_id: CVE-2022-0436
+    cve_url: https://github.com/advisories/GHSA-j383-35pm-c5h4
+    detected_date: Apr 27
+    severity: moderate
+    first_patched: 1.5.2
+- name: grunt-contrib-clean
+  description: Clean files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-clean
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vitali Malinouski
+  last_updated_on: 2014-07-10 06:21:06.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vitali Malinouski
+  last_updated_on: 2014-07-10 06:21:06.000000000 Z
+- name: grunt-contrib-less
+  description: Compile LESS files to CSS
+  package_url: https://www.npmjs.com/grunt-contrib-less
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16581/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vitali Malinouski
+  last_updated_on: 2014-07-10 06:21:06.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vitali Malinouski
+  last_updated_on: 2014-07-10 06:21:06.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vitali Malinouski
+  last_updated_on: 2014-07-10 06:21:06.000000000 Z
+- name: grunt-shell
+  description: Run shell commands
+  package_url: https://www.npmjs.com/grunt-shell
+  version: 0.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16396/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Vitali Malinouski
+  last_updated_on: 2014-07-10 06:21:06.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source: server/node/mongo/package.json
+  last_updated_by: Olof Astrand
+  last_updated_on: 2015-04-08 19:52:35.000000000 Z
+- name: activerecord
+  description: Databases on Rails
+  package_url: https://rubygems.org/activerecord
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+  vulnerabilities:
+  - name: Active Record RCE bug with Serialized Columns
+    cve_id: CVE-2022-32224
+    cve_url: https://github.com/advisories/GHSA-3hhc-qp5v-9p2j
+    detected_date: Jul 13
+    severity: critical
+    first_patched: 5.2.8.1
+  - name: Denial of Service Vulnerability in ActiveRecord's PostgreSQL adapter
+    cve_id: CVE-2022-44566
+    cve_url: https://github.com/advisories/GHSA-579w-22j4-4749
+    detected_date: Jan 19
+    severity: high
+    first_patched: 6.1.7.1
+  - name: ActiveRecord in Ruby on Rails allows database-query bypass
+    cve_id: CVE-2016-6317
+    cve_url: https://github.com/advisories/GHSA-pr3r-4wrp-r2pv
+    detected_date: Aug 22
+    severity: high
+    first_patched: 4.2.7.1
+  - name: Active Record Improper Access Control
+    cve_id: CVE-2015-7577
+    cve_url: https://github.com/advisories/GHSA-xrr6-3pc4-m447
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.2.5.1
+  - name: Moderate severity vulnerability that affects activerecord
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7phj-gmgx-2r66
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.2.5.1
+  - name: Moderate severity vulnerability that affects activerecord
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-m8h6-m9p5-p2f8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.2.7.1
+- name: annotate
+  description: Annotates Rails/ActiveRecord Models
+  package_url: https://rubygems.org/annotate
+  version: 2.6.8
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19550/default_65fd8d3cf98551f2f8f1e0cffcf1132cb03ee4fd.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: faker
+  description: Faker
+  package_url: https://rubygems.org/faker
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: mysql2
+  description: A simple, fast Mysql library for Ruby, binding to libmysql
+  package_url: https://rubygems.org/mysql2
+  version: 0.3.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: pry
+  description: An IRB alternative and runtime developer console
+  package_url: https://rubygems.org/pry
+  version: 0.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: pry-byebug
+  description: Combine 'pry' with 'byebug'
+  package_url: https://rubygems.org/pry-byebug
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 10.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in Rake
+    cve_id: CVE-2020-8130
+    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 12.3.3
+- name: sinatra-activerecord
+  description: Extends Sinatra with ActiveRecord helpers
+  package_url: https://rubygems.org/sinatra-activerecord
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19771/default_8c8187e0561e63096130e6d32779be903d42076a.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
+- name: sinatra-contrib
+  description: Collection of useful Sinatra extensions
+  package_url: https://rubygems.org/sinatra-contrib
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19010/default_4361ccfae4dee655802081d8182ddcaebd7a2b3f.png
+  detection_source_url: server/ruby/sinatra/Gemfile.lock
+  detection_source: server/ruby/sinatra/Gemfile
+  last_updated_by: Shinsuke Nishio
+  last_updated_on: 2015-04-30 11:17:47.000000000 Z
